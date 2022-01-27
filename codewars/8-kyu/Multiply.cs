@@ -12,6 +12,10 @@ Link:
 
 // Solutions:
 // Solution 1:
+public class CustomMath {
+    public static int multiply(int a, int b) => a * b;
+}
+
 
 
 
