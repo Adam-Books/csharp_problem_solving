@@ -33,6 +33,16 @@ public static class Kata
   }
 }
 
+// Solution 2:
+using System.Linq;
+public static class Kata
+{
+  public static int Solution(int n)
+  {
+   return Enumerable.Range(0, n).Where(e => e % 3 == 0 || e % 5 == 0).Sum();
+  }
+}
+
   
   
   
