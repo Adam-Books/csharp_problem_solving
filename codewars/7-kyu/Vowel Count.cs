@@ -25,6 +25,36 @@ public static class Kata
       str.Count(c => "aeiou".Contains(Char.ToLower(c)));
 }
 
+// Solution 2:
+using System;
+using System.Linq;
+
+public static class Kata
+{
+    public static int GetVowelCount(string str) => 
+      str.Count(c => "aeiou".Contains(c));
+}
+
+// Solution 3:
+using System;
+using System.Linq;
+
+public static class Kata
+{
+    public static int GetVowelCount(string str) => 
+      str.Count(c=> "aeiou".IndexOf(c) != -1);
+}
+
+// Solution 4:
+using System;
+using System.Text.RegularExpressions;
+
+public static class Kata
+{
+    public static int GetVowelCount(string str) => 
+      (Regex.Matches(str, @"[aeiouAEIOU]")).Count;
+}
+
 
 
 
