@@ -55,6 +55,27 @@ public static class Kata
       (Regex.Matches(str, @"[aeiouAEIOU]")).Count;
 }
 
+// Solution 5:
+using System;
+using System.Linq;
+
+public static class Kata
+{
+    public static int GetVowelCount(string str)
+    {
+        int vowelCount = 0;
+        string vowels = "aeiou";
+        
+        foreach (char letter in str)
+        {
+          if (vowels.IndexOf(letter) != -1)
+            vowelCount++;
+        }
+
+        return vowelCount;
+    }
+}
+
 
 
 
