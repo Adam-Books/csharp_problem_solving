@@ -34,6 +34,16 @@ namespace Solution
   }
 }
 
+// Solution 3:
+using System;
+
+namespace Solution
+{
+  public class SolutionClass
+  {
+    public static string EvenOrOdd(int number) => number % 2 > 0 ? "Odd" : "Even";
+  }
+}
 
 
 
