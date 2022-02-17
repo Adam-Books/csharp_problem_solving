@@ -46,5 +46,24 @@ Link:
 // Solutions:
 
 // Solution 1:
+class Result
+{
+
+    /*
+     * Complete the 'simpleArraySum' function below.
+     *
+     * The function is expected to return an INTEGER.
+     * The function accepts INTEGER_ARRAY ar as parameter.
+     */
+
+    public static int simpleArraySum(List<int> ar)
+    {
+        int r = 0;
+        foreach (int v in ar) r += v;
+        return r;
+    }
+
+}
+
 
 
