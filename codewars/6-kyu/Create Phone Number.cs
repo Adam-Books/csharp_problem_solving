@@ -17,6 +17,13 @@ Link:
 */
 
 // Solution:
+public class Kata
+{
+  public static string CreatePhoneNumber(int[] numbers) => 
+    long.Parse(string.Concat(numbers)).ToString("(000) 000-0000");
+}
+
+
 
 
 
