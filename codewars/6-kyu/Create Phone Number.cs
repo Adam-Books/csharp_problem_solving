@@ -17,6 +17,8 @@ Link:
 */
 
 // Solution:
+
+// Solution 1:
 public class Kata
 {
   public static string CreatePhoneNumber(int[] numbers) => 
