@@ -58,6 +58,7 @@ Link:
 public static int camelcase(string s) =>
     s.ToCharArray().Where(c => Char.IsUpper(c)).Count() + 1;
 
+// Solution 2:
 
 
 
