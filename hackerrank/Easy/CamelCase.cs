@@ -63,6 +63,14 @@ public static int camelcase(string s) =>
     s.Count(char.IsUpper) + 1;
 
 // Solution 3:
+public static int camelcase(string s) {
+        int r = 1;
+        int i = 0;
+        for (; i < s.Length; i++)
+            if (Char.IsUpper(s[i])) r++;
+        return r;
+}
+
 
 
 
