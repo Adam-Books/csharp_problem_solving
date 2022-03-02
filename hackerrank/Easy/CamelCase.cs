@@ -64,11 +64,11 @@ public static int camelcase(string s) =>
 
 // Solution 3:
 public static int camelcase(string s) {
-        int r = 1;
-        int i = 0;
-        for (; i < s.Length; i++)
-            if (Char.IsUpper(s[i])) r++;
-        return r;
+    int r = 1;
+    int i = 0;
+    for (; i < s.Length; i++)
+        if (Char.IsUpper(s[i])) r++;
+    return r;
 }
 
 
