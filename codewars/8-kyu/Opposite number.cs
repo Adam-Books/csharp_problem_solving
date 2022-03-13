@@ -19,7 +19,10 @@ Link:
 // Solutions:
 
 // Solution 1:
-
+public class Kata
+    {
+        public static int Opposite(int n) => -n;
+    }
 
 
 
