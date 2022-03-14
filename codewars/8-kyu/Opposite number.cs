@@ -31,8 +31,8 @@ public class Kata
     {
         public  static int Opposite(int number)
         {
-           if (number<0){ number = Math.Abs(number);}
-           else{number = number -number -number;}
+           if (number < 0) number = Math.Abs(number);
+           else number = number - number - number;
            return number;    
         }
     }
