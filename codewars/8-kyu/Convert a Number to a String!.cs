@@ -24,6 +24,17 @@ class Kata
   public static string NumberToString(int n) => n + "";
 }
 
+// Solution 2:
+using System;
+
+public class Kata
+{
+  public static string NumberToString(int num)
+  {
+    return $"{num}";
+  }
+}
+
 
 
 
