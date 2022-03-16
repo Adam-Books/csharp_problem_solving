@@ -19,7 +19,10 @@ Link:
 // Solutions:
 
 // Solution 1:
-
+class Kata
+{
+  public static string NumberToString(int n) => n + "";
+}
 
 
 
