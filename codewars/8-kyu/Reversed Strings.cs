@@ -61,7 +61,13 @@ public static class Kata
   }
 }
 
+// Solution 5:
+using System.Linq;
 
+class Kata
+{
+  public static string Solution(string s) => string.Concat(s.Reverse());
+}
 
 
 
