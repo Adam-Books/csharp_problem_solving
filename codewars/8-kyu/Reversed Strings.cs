@@ -16,6 +16,15 @@ Link:
 // Solutions:
 
 // Solution 1:
-
+using System;
+public static class Kata
+{
+  public static string Solution(string s) 
+  {
+    char[] c = s.ToCharArray();
+    Array.Reverse(c);
+    return new String(c);
+  }
+}
 
 
