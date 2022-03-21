@@ -70,7 +70,12 @@ class Kata
 }
 
 // Solution 6:
-
+using System;
+using System.Linq;
+public static class Kata
+{
+  public static string Solution(string str) => string.Join("",str.Reverse());
+}
 
 
 
