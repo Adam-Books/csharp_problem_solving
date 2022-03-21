@@ -69,6 +69,7 @@ class Kata
   public static string Solution(string s) => string.Concat(s.Reverse());
 }
 
+// Solution 6:
 
 
 
