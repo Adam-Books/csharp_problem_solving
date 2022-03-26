@@ -18,4 +18,8 @@ static class Kata
 }
 
 // Solution 2:
+static class Kata
+{
+  public static string boolToWord(bool w) => w ? "Yes" : "No";
+}
 
