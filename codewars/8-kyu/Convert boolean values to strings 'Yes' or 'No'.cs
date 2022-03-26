@@ -12,5 +12,8 @@ Link:
 // Solutions:
 
 // Solution 1:
-
+static class Kata
+{
+  public static string boolToWord(bool w) => (bool)w ? "Yes" : "No";
+}
 
