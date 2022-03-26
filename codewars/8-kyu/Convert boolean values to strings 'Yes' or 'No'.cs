@@ -23,3 +23,6 @@ static class Kata
   public static string boolToWord(bool w) => w ? "Yes" : "No";
 }
 
+// Solution 3:
+
+
