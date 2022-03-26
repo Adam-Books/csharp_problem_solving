@@ -24,5 +24,11 @@ static class Kata
 }
 
 // Solution 3:
+using System;
+using System.Linq;
 
+public static class Kata
+{
+  public static string boolToWord(bool word) => word==true ? "Yes" : "No";
+}
 
