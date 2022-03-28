@@ -33,3 +33,17 @@ public static class Kata
   public static string boolToWord(bool word) => word==true ? "Yes" : "No";
 }
 
+// Solution 4:
+using System;
+using System.Linq;
+
+public static class Kata
+{
+        public static string boolToWord(bool word) => word switch
+        {
+            true => "Yes",
+            false => "No"
+        };
+}
+
+
