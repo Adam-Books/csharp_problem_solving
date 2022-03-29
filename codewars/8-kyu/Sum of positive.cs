@@ -9,5 +9,8 @@ Description:
 
   Note: if there is nothing to sum, the sum is default to 0.
   
+Link:
+  https://www.codewars.com/kata/5715eaedb436cf5606000381    
+  
 */
 
