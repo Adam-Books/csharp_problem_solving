@@ -16,4 +16,18 @@ Link:
 
 // Solutions:
 
+// Solution 1:
+class Kata
+{
+  public static int PositiveSum(int[] arr)
+  {
+    int r = 0;
+    foreach(int k in arr)
+      {
+        if (k > 0) r += k;
+      }
+    return r;
+  }
+}
+
 
