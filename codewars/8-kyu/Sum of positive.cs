@@ -55,6 +55,11 @@ public class Kata
 }
 
 // Solution 4:
+using System.Linq;
 
+class Kata
+{
+  public static int PositiveSum(int[] arr) => arr.Sum(i => i < 1 ? 0 : i);
+}
 
 
