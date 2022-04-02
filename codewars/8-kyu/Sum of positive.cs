@@ -53,3 +53,8 @@ public class Kata
   return arr.Sum(c => (c < 0 ? 0 : c));
   }
 }
+
+// Solution 4:
+
+
+
