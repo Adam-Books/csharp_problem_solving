@@ -63,5 +63,16 @@ class Kata
 }
 
 // Solution 5:
+using System;
+using System.Linq;
 
+public class Kata
+{
+  public static int PositiveSum(int[] arr)
+  {
+    return (from n in arr
+           where n > 0
+           select n).Sum();
+  }
+}
 
