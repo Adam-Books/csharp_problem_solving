@@ -62,4 +62,6 @@ class Kata
   public static int PositiveSum(int[] arr) => arr.Sum(i => i < 1 ? 0 : i);
 }
 
+// Solution 5:
+
 
