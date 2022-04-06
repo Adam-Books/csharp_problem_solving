@@ -19,3 +19,12 @@ Link:
 
 */
 
+// Solutions:
+
+// Solution 1:
+static class Kata
+{
+  public static int MakeNegative(int n) => n >= 1 ? -n : n;
+}
+
+
