@@ -27,4 +27,7 @@ static class Kata
   public static int MakeNegative(int n) => n >= 1 ? -n : n;
 }
 
+// Solution 2:
+
+
 
