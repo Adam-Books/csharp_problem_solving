@@ -38,5 +38,13 @@ public static class Kata
   }
 }
 
+// Solution 3:
+using static System.Math;
+
+public static class Kata
+{
+    public static int MakeNegative(int number) => -Abs(number);
+}
+
 
 
