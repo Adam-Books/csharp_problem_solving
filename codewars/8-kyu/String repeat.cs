@@ -16,7 +16,7 @@ Link:
 // Solutions:
 
 // Solution 1:
-
+namespace Solution
 
 
 
