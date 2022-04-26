@@ -75,3 +75,11 @@ namespace Solution
   }
 }
 
+Solution 5:
+using System.Linq;
+
+class Program
+{
+  public static string repeatStr(int n, string s) => string.Concat(Enumerable.Repeat(s, n));
+}
+
