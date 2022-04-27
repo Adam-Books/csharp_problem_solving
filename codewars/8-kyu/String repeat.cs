@@ -75,7 +75,7 @@ namespace Solution
   }
 }
 
-Solution 5:
+//Solution 5:
 using System.Linq;
 
 class Program
