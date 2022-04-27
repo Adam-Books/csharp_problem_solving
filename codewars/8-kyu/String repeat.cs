@@ -83,3 +83,7 @@ class Program
   public static string repeatStr(int n, string s) => string.Concat(Enumerable.Repeat(s, n));
 }
 
+//Solution 6:
+
+
+
