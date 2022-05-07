@@ -21,4 +21,9 @@ class Kata
     public static string Remove_char(string s) => s.Substring(1, s.Length - 2);
 }
 
+// Solution 2:
+public class Kata
+{
+  public static string Remove_char(string s) => s[1..^1];
+}
 
