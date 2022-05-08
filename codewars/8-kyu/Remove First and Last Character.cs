@@ -27,3 +27,5 @@ public class Kata
   public static string Remove_char(string s) => s[1..^1];
 }
 
+// Solution 3:
+
