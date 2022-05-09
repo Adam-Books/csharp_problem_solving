@@ -28,4 +28,12 @@ public class Kata
 }
 
 // Solution 3:
+using System.Text.RegularExpressions;
+
+class Kata
+{
+  public static string Remove_char(string s) => Regex.Replace(s, "^.|.$", "");
+}
+
+
 
