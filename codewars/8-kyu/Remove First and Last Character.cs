@@ -35,5 +35,5 @@ class Kata
   public static string Remove_char(string s) => Regex.Replace(s, "^.|.$", "");
 }
 
-
+// Solution 4:
 
