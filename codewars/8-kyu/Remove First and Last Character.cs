@@ -36,4 +36,14 @@ class Kata
 }
 
 // Solution 4:
+using System;
 
+public class Kata
+{
+    public static string Remove_char(string s)
+    {
+        // use s.Length - 2 because we have been removed the first charactor 
+        // but length is not change
+        return s.Remove(0, 1).Remove(s.Length - 2);
+    }
+}
