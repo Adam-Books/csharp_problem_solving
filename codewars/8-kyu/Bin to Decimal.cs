@@ -24,7 +24,27 @@ namespace Solution
 }
 
 // Solution 2:
+using System;
 
+namespace Solution
+{
+  public static class Program
+  {
+    public static int binToDec(string s)
+    {
+      int result = 0;
+      var length = s.Length;
+      foreach(char c in s)
+      {
+        length--;
+        if(c == '1')
+          result +=  (int)(Math.Pow(2,length));
+      }
+    
+      return result;
+    }
+  }
+}
 
 
 
