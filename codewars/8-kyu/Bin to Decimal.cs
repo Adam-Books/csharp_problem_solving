@@ -47,7 +47,16 @@ namespace Solution
 }
 
 // Solution 3:
+using System;
+using System.Linq;
 
+namespace Solution
+{
+  public static class Program
+  {
+    public static int binToDec(string s) => Convert.ToInt32(s.Reverse().Select((x, i) => Math.Pow(2, i)*(x == '1' ? 1 : 0)).Sum());
+  }
+}
 
 
 
