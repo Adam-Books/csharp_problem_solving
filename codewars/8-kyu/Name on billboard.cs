@@ -27,3 +27,8 @@ class Kata {
         return n;
   }
 }
+
+// Solution 2:
+
+
+
