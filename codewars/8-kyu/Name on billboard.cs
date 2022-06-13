@@ -33,4 +33,9 @@ public class Kata {
   public static double Billboard(string name, double price = 30) => name.Length / (1 / price);
 }
 
+// Solution 3:
+
+
+
+
 
