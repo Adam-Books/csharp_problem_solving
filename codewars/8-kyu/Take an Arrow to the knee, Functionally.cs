@@ -27,7 +27,20 @@ Link:
 
 // Solutions:
 // Solution 1:
-
+using System;
+public class Kata
+{
+  public static string ArrowFunc(int[] arr) 
+    {
+      string s = "";
+      for (int i = 0; i < arr.Length; i++)
+      {
+         char k = (Char)arr[i];
+         s += k;
+      }  
+      return s;
+    }
+}
 
 
 
