@@ -42,5 +42,7 @@ public class Kata
     }
 }
 
+// Solution 2:
+
 
 
