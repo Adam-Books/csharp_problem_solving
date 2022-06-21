@@ -43,6 +43,15 @@ public class Kata
 }
 
 // Solution 2:
+using System;
+using System.Linq;
 
+public class Kata
+{
+  public static string ArrowFunc(int[] arr)
+  {
+    return string.Concat(arr.Select(n => (char)n));
+  }
+}
 
 
