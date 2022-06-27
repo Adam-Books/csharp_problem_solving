@@ -63,3 +63,11 @@ public class Kata
     public static string ArrowFunc(int[] arr) => new string(arr.Select(x => Convert.ToChar(x)).ToArray());
 }
 
+// Solution 4:
+
+
+
+
+
+
+
