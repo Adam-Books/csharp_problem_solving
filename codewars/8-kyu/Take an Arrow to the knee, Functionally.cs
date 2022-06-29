@@ -17,7 +17,6 @@ Description:
 
   Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
   
-  
 Link:
   https://www.codewars.com/kata/559f3123e66a7204f000009f
 
