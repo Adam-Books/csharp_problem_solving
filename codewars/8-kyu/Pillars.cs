@@ -18,7 +18,7 @@ Link:
 */
 
 // Solutions:
-
+// Solution 1:
 class Kata
 {
  public static int Pillars(int numPill, int dist, int width) => 
