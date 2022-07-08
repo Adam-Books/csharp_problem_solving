@@ -25,6 +25,7 @@ class Kata
    numPill == 1 ? 0 : ((numPill - 2) * width) + (((numPill - 1) * dist) * 100);
 }
 
+// Solution 2:
 
 
 
