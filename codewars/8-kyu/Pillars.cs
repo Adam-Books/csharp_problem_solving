@@ -31,6 +31,8 @@ public static class Kata
  public static int Pillars(int a, int b, int c) => a is 1 ? 0 : 100 * b * --a + c * --a;
 }
 
+// Solution 3:
+
 
 
 
