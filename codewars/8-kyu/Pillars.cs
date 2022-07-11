@@ -32,7 +32,15 @@ public static class Kata
 }
 
 // Solution 3:
+using System;
 
+public static class Kata
+{
+    public static int Pillars(int numPill, int dist, int width)
+    {
+        return Math.Max(--numPill * (100 * dist + width) - width, 0);
+    }
+}
 
 
 
